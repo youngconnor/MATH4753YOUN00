@@ -1,11 +1,11 @@
 Package: MATH4753YOUN0011
 Type: OU Package
-Title: What the Package Does (Title Case)
+Title: A Selection of Lab Functions
 Version: 0.1.0
 Author: Connor Young
 Maintainer: Connor Young <cy@ou.edu>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: GLP-2
+Description: Functions from the MATH 4753 Course
+License: MIT
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.0.2
