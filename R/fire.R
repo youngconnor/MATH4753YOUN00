@@ -10,6 +10,4 @@
 #' }
 #' @source \url{https://www.crcpress.com/Statistics-for-Engineering-and-the-Sciences/Mendenhall-Sincich/p/book/9781498728850}
 "fire"
-fire=read.csv("FIREDAM.csv")
-saveRDS(fire, file="fire")
-usethis::use_data(fire)
+
