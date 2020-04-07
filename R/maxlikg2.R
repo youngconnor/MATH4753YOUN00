@@ -23,4 +23,4 @@ maxlikg2=function(theta1,theta2,lfun="logbinpois",...){
   axis(4,th2est,round(th2est,2),las=1)
   list(th1est=th1est,th2est=th2est)
 }
-maxlikg2(theta1=seq(0,1,length=1000),theta2=seq(0,10,length=1000),nlevels=20)
+
