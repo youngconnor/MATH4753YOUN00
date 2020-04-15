@@ -12,3 +12,4 @@
 myci=function(x){
   t.test(x, conf.level = 0.95)
 }
+
