@@ -16,7 +16,6 @@ a list of vectors
 My N Curve
 }
 \examples{
-x:1:20
 
 
 

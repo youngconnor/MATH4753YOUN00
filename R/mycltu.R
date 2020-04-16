@@ -39,3 +39,6 @@ mycltu=function(n,iter,a=0,b=10){
   curve(dunif(x,a,b),add=TRUE,lwd=4)
 
 }
+
+
+

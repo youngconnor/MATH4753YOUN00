@@ -6,7 +6,7 @@
 #' @return a list of vectors
 #' @export
 #'
-#' @examples x:1:20
+#' @examples
 #'
 #'
 #'
@@ -21,5 +21,6 @@ myncurve = function(mu, sigma, a){
   text(x=2, y=0.1, paste("Area = ", prob, sep=""))
 
 }
+
 
 

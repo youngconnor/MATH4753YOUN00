@@ -17,6 +17,6 @@ My Bin Function
 }
 \examples{
 x:10, mybin(x)
-This function estimates the probability with 100 iterations, n=10, and a p value of 0.5
+This function estimates the probability based on iterations, n, and proability and creates a bar plot from the data.
 
 }

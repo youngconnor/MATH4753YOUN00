@@ -44,3 +44,6 @@ myboot2=function(iter=10000,x,fun="mean",alpha=0.05,...){
 
   invisible(list(ci=ci,fun=fun,x=x, xstat=xstat))# Some output to use if necessary
 }
+
+
+

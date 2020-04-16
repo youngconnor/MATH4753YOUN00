@@ -1,6 +1,6 @@
 #' Myplot Functions
 #'
-#'This Function Calculates the quadratic curve for the spruce df set of data
+#'This Function Calculates the quadratic curve for a set of data
 #'
 #'Has the coefficients to create the plot and equation for the quadratic equation in the spruce data
 #'
