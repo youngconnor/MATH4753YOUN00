@@ -11,7 +11,10 @@
 #'
 #' @examples mypvalue(t0=1.23, xmax= 4, n=33, alpha=0.05)
 #'
-#' This function creates a p-value based on a provided t-value, n, and a confidence interval and also creates a barplot to show the rejection region for t-values.
+#' This function creates a p-value based on a provided t-value, n, and a confidence interval
+#' and also creates a barplot to show the rejection region for t-values.
+#'
+#'
 mypvalue=function(t0,xmax=4,n=20, alpha=0.05){
   #calculate alpha/2
   va=round(pt(-t0,df=n-1),4)
@@ -46,4 +49,5 @@ mypvalue=function(t0,xmax=4,n=20, alpha=0.05){
 
   return(list(q=q,pvalue=pv))
 }
+
 

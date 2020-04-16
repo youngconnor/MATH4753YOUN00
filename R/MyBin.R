@@ -4,7 +4,7 @@
 #' @param n
 #' @param p
 #'
-#' @return a list of numbers
+#' @return a list of numbers and a bar plot of the data
 #' @export
 #'
 #' @examples
@@ -27,4 +27,5 @@ mybin=function(iter=100,n=10, p=0.5){
   barplot(succ.tab/(iter), col=rainbow(n+1), main="Binomial simulation experiment", xlab="number of successes")
   succ.tab/iter
 }
+
 

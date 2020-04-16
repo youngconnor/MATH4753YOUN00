@@ -3,12 +3,12 @@
 #' @param mu
 #' @param sigma
 #'
-#' @return a list of vectors
+#' @return a list of vectors and a graph of probaiblities
 #' @export
 #'
 #' @examples
 #'
-#'
+#'This function creates a graph of probabilies based on the provided mu, sigma, and gives the option to shade in a region defined by a
 #'
 myncurve = function(mu, sigma, a){
   plot.new

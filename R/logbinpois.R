@@ -15,3 +15,5 @@
 logbinpois=function(theta1,theta2){
   log(dbinom(3,size=20,prob=theta1)) +  log(dpois(3,lambda=theta2))
 }
+
+

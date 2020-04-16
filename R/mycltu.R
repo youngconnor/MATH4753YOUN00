@@ -10,6 +10,11 @@
 #' @export
 #'
 #' @examples 1, 1000, 0 10
+#'
+#' This function is used to create a histogram of a sample mean based on a provided n, iter, and values for a and b.
+#' The histogram has a line for the expected density and the actual calculated density
+#'
+#'
 mycltu=function(n,iter,a=0,b=10){
   ## r-random sample from the uniform
   y=runif(n*iter,a,b)
