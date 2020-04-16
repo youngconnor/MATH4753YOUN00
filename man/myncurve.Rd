@@ -10,13 +10,13 @@ myncurve(mu, sigma, a)
 \item{sigma}{}
 }
 \value{
-a list of vectors
+a list of vectors and a graph of probaiblities
 }
 \description{
 My N Curve
 }
 \examples{
 
-
+This function creates a graph of probabilies based on the provided mu, sigma, and gives the option to shade in a region defined by a
 
 }

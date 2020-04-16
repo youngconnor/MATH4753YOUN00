@@ -18,5 +18,8 @@ Mypvalue
 \examples{
 mypvalue(t0=1.23, xmax= 4, n=33, alpha=0.05)
 
-This function creates a p-value based on a provided t-value, n, and a confidence interval and also creates a barplot to show the rejection region for t-values.
+This function creates a p-value based on a provided t-value, n, and a confidence interval
+and also creates a barplot to show the rejection region for t-values.
+
+
 }

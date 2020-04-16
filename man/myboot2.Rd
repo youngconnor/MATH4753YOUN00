@@ -17,4 +17,8 @@ My Boot2 Function
 }
 \examples{
 iter= 100000, x= sam
+
+
+This function creates a histogram of bootstrap statistics for a sample with a number of iterations within a specific confidence interval
+
 }

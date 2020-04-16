@@ -20,4 +20,8 @@ Has the coefficients to create the plot and equation for the quadratic equation 
 }
 \examples{
 x:2; myplot(x)
+
+This funtion is only used for the spruce.df data set and provides a value for a quadratic funtion based on the data set.
+You provide a value for x and it calculates the answer.
+
 }

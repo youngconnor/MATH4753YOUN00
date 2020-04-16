@@ -10,7 +10,7 @@ mybin(iter = 100, n = 10, p = 0.5)
 \item{p}{}
 }
 \value{
-a list of numbers
+a list of numbers and a bar plot of the data
 }
 \description{
 My Bin Function
